@@ -20,4 +20,5 @@ Its founder Derek Campbell used BCM2835 GPIO library and created API for program
 
 I have rewritten this program in C++ using Gordon Henderson's wiringPi SPI library.
 
-
+To run this program...type following line in terminal
+g++ cpld.cpp -lwiringPi -o cpld
