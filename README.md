@@ -25,9 +25,24 @@ The Raspberry Pi is equipped with one SPI bus that has 2 chip selects. The SPI m
 The SPI bus is available on the P1 Header:
 
 MOSI    P1-19
+
 MISO    P1-21
+
 SCLK    P1-23   P1-24    CE0
+
 GND     P1-25   P1-26    CE1
+
+Signal name abbreviations
+
+SCLK - Serial CLocK
+
+CE   - Chip Enable (often called Chip Select)
+
+MOSI - Master Out Slave In
+
+MISO - Master In Slave Out
+
+MOMI - Master Out Master In
 
 To run this program...type following line in terminal
 g++ cpld.cpp -lwiringPi -o cpld
