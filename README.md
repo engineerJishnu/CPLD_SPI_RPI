@@ -20,5 +20,14 @@ Its founder Derek Campbell used BCM2835 GPIO library and created API for program
 
 I have rewritten this program in C++ using Gordon Henderson's wiringPi SPI library.
 
+The Raspberry Pi is equipped with one SPI bus that has 2 chip selects. The SPI master driver is disabled by default on Raspbian. To enable it, use raspi-config, or ensure the line dtparam=spi=on isn't commented out in /boot/config.txt, and reboot. If the SPI driver was loaded, you should see the device /dev/spidev0.0.
+
+The SPI bus is available on the P1 Header:
+
+MOSI    P1-19
+MISO    P1-21
+SCLK    P1-23   P1-24    CE0
+GND     P1-25   P1-26    CE1
+
 To run this program...type following line in terminal
 g++ cpld.cpp -lwiringPi -o cpld
