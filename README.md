@@ -42,7 +42,7 @@ SCLK    P1-23   P1-24    CE0
 
 GND     P1-25   P1-26    CE1
 
-Signal name abbreviations
+Signal name abbreviations:
 
 SCLK - Serial CLocK
 
