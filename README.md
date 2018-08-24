@@ -8,6 +8,14 @@ The purpose of the Guzunty Pi input/output expander is to (1) Protect the delica
 
 The Guzunty is a Xilinx XC9500XL Complex Programmable Logic Device, or CPLD.
 
+Programmable logic devices, what are they? 
+
+Specifically they are an integrated circuit that you program using a hardware description language such as VHDL or Verilog.
+ 
+There are several types of programmable logic available. Older versions like the programmable array logic (PAL), the generic array logic (GAL), the programmable logic device (PLD), the simple programmable logic device (SPLD). 
+ 
+The complex programmable logic device (CPLD) such as the XC9500XL from Xilinx, and the field programmable gate array (FPGA) such as the Spartan6 from Xilinx are some of the newer versions of programmable logic that are a result of improvements to the original types of devices.
+
 A CPLD is like several large breadboards laid out on your desk, full of every combination of logic devices you are ever going to need. It is waiting to be told what to do. It doesn't need a host of jumper wires like a breadboard would. It can be reprogrammed again and again (even at runtime), and it is small enough to fit on top of your Pi.
 
 A CPLD program is often referred to as a ‘core’ to distinguish it from a regular computer program. Cores can do things thousands of times faster than an equivalent computer program.
