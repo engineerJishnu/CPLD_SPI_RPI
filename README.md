@@ -1,7 +1,7 @@
 # CPLD_SPI_RPI
 CPLD with Raspberry Pi
 
-I have Guzunty Pi CPLD purchased from UK somewhere around 2013 0r 2014. As per Guzunty Pi wiki..
+I have Guzunty Pi CPLD purchased from UK somewhere around 2013 or 2014. As per Guzunty Pi wiki..
 
 The purpose of the Guzunty Pi input/output expander is to (1) Protect the delicate GPIO pins of the Raspberry Pi computer and
 (2) Provide up to a net 25 additional input/output expansion lines.
