@@ -45,4 +45,5 @@ MISO - Master In Slave Out
 MOMI - Master Out Master In
 
 To run this program...type following line in terminal
+
 g++ cpld.cpp -lwiringPi -o cpld
