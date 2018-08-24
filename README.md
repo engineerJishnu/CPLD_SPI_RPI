@@ -2,11 +2,11 @@
 
 CPLD with Raspberry Pi
 
-Somewhere around 2013 or 2014, I purchased a hardware for Raspberry Pi named Guzunty Pi from UK. The Guzunty is a Xilinx XC9500XL Complex Programmable Logic Device, or CPLD.
+Somewhere around 2013 or 2014, I purchased a hardware for Raspberry Pi named Guzunty Pi from UK. The Guzunty Pi is a Xilinx XC9500XL Complex Programmable Logic Device, or CPLD.
 
 As per Guzunty Pi wiki..
 
-The purpose of the Guzunty Pi input/output expander is to: 
+The goal of the Guzunty Pi to work as input/output expander in order to:
 
 (1) Protect the delicate GPIO pins of the Raspberry Pi computer and
 
@@ -14,14 +14,14 @@ The purpose of the Guzunty Pi input/output expander is to:
 
 A powerful feature of the Raspberry Pi is the row of GPIO (general-purpose input/output) pins along the top edge of the board. A 40-pin GPIO header is found on all current Raspberry Pi boards. Prior to the Pi 1 Model B+ (2014), boards comprised a shorter 26-pin header.
 
-Hence, after removing I2C, SPI and PWM...not much GPIO pins are available for digital input or outputs.
+Hence, after removing I2C, SPI and PWM...not much GPIO pins are available for digital input or outputs. Thats where Guzunty Pi becomes useful.
 
-Programmable logic devices, what are they? 
+Programmable logic devices, what are they?
 
-Specifically they are an integrated circuit that you program using a hardware description language such as VHDL or Verilog.
- 
-There are several types of programmable logic available. Older versions like the programmable array logic (PAL), the generic array logic (GAL), the programmable logic device (PLD), the simple programmable logic device (SPLD). 
- 
+They are an integrated circuit that you program using a hardware description language such as VHDL or Verilog.
+
+There are several types of programmable logic available. Older versions like the programmable array logic (PAL), the generic array logic (GAL), the programmable logic device (PLD), the simple programmable logic device (SPLD).
+
 The complex programmable logic device (CPLD) such as the XC9500XL from Xilinx, and the field programmable gate array (FPGA) such as the Spartan6 from Xilinx are some of the newer versions of programmable logic that are a result of improvements to the original types of devices.
 
 A CPLD program is often referred to as a ‘core’ to distinguish it from a regular computer program. Cores can do things thousands of times faster than an equivalent computer program.
